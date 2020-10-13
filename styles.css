@@ -1,6 +1,6 @@
 /* Uncomment an example for watching the position result in the browser please (in index.html too) */
 
-/* position: static
+/* position: static */
 .red{
     height: 100px;
     width: 100px;
@@ -10,7 +10,7 @@
   
 #moved{
     left: 100px;
-} */
+}
 
 /* position: relative
 .red{
@@ -79,7 +79,7 @@
   left: 50px;
 } */
 
-/* position: sticky */
+/* position: sticky
 #logo {
   height: 50px;
   width: 100%;
@@ -94,7 +94,10 @@
 
 #menu {
   position: sticky;
-  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   height: 100px;
   width: 100%;
   background-color: red;
@@ -106,4 +109,84 @@
   height: 1200px;
   width: 100%;
   background-color: yellow;
-}
+} */
+
+/* Bonus: Common examples */
+/* 1.- Div centered horizontally in the web (w/ position: relative)
+    #centered{
+        position: relative;
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    } */
+
+/* 2.- Div centered horizontally in the web (w/ position: absolute)
+    #centered{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    } */
+
+/* 3.- Div centered horizontally in the web (w/ position: static)
+    #centered{
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    } */
+
+/* 4.- Div centered horizontally within another div
+    #container {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        background-color: green;
+    }
+
+    #centered {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    } */
+
+/* 5.- Div centered horizontally and vertically
+    #centered{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    } */
+
+/* 6.- Div centered horizontally and vertically within another div
+    #container{
+        position: relative;
+        height: 300px;
+        width: 300px;
+        background-color: green;
+    }
+
+    #centered{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    } */
