@@ -1,6 +1,6 @@
 /* Uncomment an example for watching the position result in the browser please (in index.html too) */
 
-/* Position: Static
+/* position: static
 .red{
     height: 100px;
     width: 100px;
@@ -12,7 +12,7 @@
     left: 100px;
 } */
 
-/* Position: Relative
+/* position: relative
 .red{
     height: 100px;
     width: 100px;
@@ -25,7 +25,7 @@
     left: 104px;
 } */
 
-/* Position: Absolute (viewport reference)
+/* position: absolute (viewport reference)
 .red {
     height: 100px;
     width: 100px;
@@ -39,7 +39,7 @@
     left: 50px;
 } */
 
-/* Position: Absolute (parent reference)
+/* position: absolute (parent reference)
 .red{
     height: 100px;
     width: 100px;
@@ -57,7 +57,7 @@
     left: 50px;
 } */
 
-/* Position: Fixed */
+/* position: fixed
 .red {
   height: 100px;
   width: 100px;
@@ -77,4 +77,4 @@
   position: fixed;
   top: 40px;
   left: 50px;
-}
+} */
