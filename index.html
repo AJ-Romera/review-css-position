@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Review CSS position</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Uncomment an example for watching the position result in the browser please (in styles.css too) -->
 
     <!-- Position: Static 
@@ -24,11 +24,16 @@
     <div id="moved" class="red"></div>
     <div class="red"></div> -->
 
-    <!-- Position : Absolute (parent reference) -->
+    <!-- Position : Absolute (parent reference)
     <div class="red"></div>
     <div id="relative" class="red">
         <div id="moved" class="red"></div>
-    </div>
+    </div> -->
 
-</body>
+    <!-- Position : Fixed -->
+    <div id="firstDiv" class="red"></div>
+    <div id="relative" class="red">
+      <div id="moved" class="red"></div>
+    </div>
+  </body>
 </html>

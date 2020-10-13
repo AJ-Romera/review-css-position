@@ -39,7 +39,7 @@
     left: 50px;
 } */
 
-/* Position: Absolute (parent reference) */
+/* Position: Absolute (parent reference)
 .red{
     height: 100px;
     width: 100px;
@@ -55,4 +55,26 @@
     position: absolute;
     top: 40px;
     left: 50px;
+} */
+
+/* Position: Fixed */
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 2px green solid;
+}
+
+#firstDiv {
+  height: 2000px;
+}
+
+#relative {
+  position: relative;
+}
+
+#moved {
+  position: fixed;
+  top: 40px;
+  left: 50px;
 }
