@@ -12,15 +12,47 @@
     left: 100px;
 } */
 
-/* Position: Relative */
+/* Position: Relative
 .red{
     height: 100px;
     width: 100px;
     background-color: red;
     border: 2px green solid;
-  }
+}
   
-  #moved{
+#moved{
     position: relative;
     left: 104px;
-  }
+} */
+
+/* Position: Absolute (viewport reference)
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px green solid;
+}
+  
+#moved{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+} */
+
+/* Position: Absolute (parent reference) */
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px green solid;
+}
+  
+#relative{
+    position: relative;
+}
+  
+#moved{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
