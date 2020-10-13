@@ -1,0 +1,13 @@
+/* Uncomment an example for watching the position result in the browser please (in index.html too) */
+
+/* Position: Static */
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px green solid;
+}
+  
+#moved{
+    left: 100px;
+}
