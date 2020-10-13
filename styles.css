@@ -78,3 +78,32 @@
   top: 40px;
   left: 50px;
 } */
+
+/* position: sticky */
+#logo {
+  height: 50px;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+}
+
+#logo img {
+  height: 100%;
+  width: 40%;
+}
+
+#menu {
+  position: sticky;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#content {
+  height: 1200px;
+  width: 100%;
+  background-color: yellow;
+}
